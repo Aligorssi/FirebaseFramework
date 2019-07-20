@@ -1,0 +1,11 @@
+framework module FiBSignupLoginFramework {
+  umbrella header "FiBSignupLoginFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module FiBSignupLoginFramework.Swift {
+    header "FiBSignupLoginFramework-Swift.h"
+    requires objc
+}
